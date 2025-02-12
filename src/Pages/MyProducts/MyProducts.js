@@ -9,7 +9,6 @@ const MyProducts = () => {
     const [products, setProducts] = useState([])
     const [categories, setCategories] = useState([]);
     const [filteredProducts, setFilteredProducts] = useState([]);
-    const [selectedCategory, setSelectedCategory] = useState("Todos");
 
     const getMyProducts = async() => {
         await getDocs(collection(db, "Products"))
@@ -41,7 +40,6 @@ const MyProducts = () => {
 
 
     const handleFilter = (category) => {
-        setSelectedCategory(category);
         if (category === "Todos") {
           setFilteredProducts(products);
         } else {
