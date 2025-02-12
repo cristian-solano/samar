@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Host Grotesk", serif;
+}
+
+:root {
+  --primary-color: #fcde58;
+  --secondary-color: #000100;
+  --third-color: #ead886;
+  --fourth-color: #7c6011;  
+  --fifth-color: #fbfbfb;
+  --sixth-color: #747432;
+  --transparent-color: #ffffff25;
+}

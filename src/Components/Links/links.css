@@ -1,0 +1,42 @@
+.links-container {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+    position: fixed;
+    top: 25%;
+    right: 0;
+}
+
+.links-content {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.links-content a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 50px;
+}
+
+.links-content a img {
+    width: 20px;
+}
+
+.links-content a p {
+    font-size: 10px;
+    text-align: center;
+}
+
+

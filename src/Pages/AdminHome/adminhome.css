@@ -1,0 +1,42 @@
+.adminhome-container {
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 90px 20px 20px;
+}
+
+.adminhome-content {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.adminhome-box {
+    width: 300px;
+    height: 300px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.adminhome-box img {
+    width: 100px;
+}
+
+.adminhome-box p {
+    color: var(--primary-color);
+    text-align: center;
+}

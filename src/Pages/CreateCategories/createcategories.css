@@ -1,0 +1,152 @@
+.categories-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 20px 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.categories-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.categories-circle-small {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.b-one {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    background: linear-gradient(90deg, rgba(8,8,8,1) 0%, rgba(82,82,82,1) 64%, rgba(145,142,46,1) 94%); 
+}
+
+.b-two {
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+    background: linear-gradient(90deg, rgba(145,142,46,1) 0%, rgba(82,82,82,1) 19%, rgba(8,8,8,1) 67%);
+}
+
+.b-three {
+    position: absolute;
+    bottom: 50%;
+    right: 15%;
+    background: linear-gradient(90deg, rgba(8,8,8,1) 0%, rgba(82,82,82,1) 64%, rgba(145,142,46,1) 94%);
+}
+
+.b-four {
+    position: absolute;
+    top: 80%;
+    right: 20%;
+    background: linear-gradient(90deg, rgba(145,142,46,1) 0%, rgba(82,82,82,1) 19%, rgba(8,8,8,1) 67%);
+}
+
+.b-five {
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+    background: linear-gradient(90deg, rgba(145,142,46,1) 0%, rgba(82,82,82,1) 65%, rgba(8,8,8,1) 95%);
+}
+
+
+.categories-content {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px
+}
+
+.categories-content h2 {
+    font-size: 40px;
+}
+
+.categories-content span {
+    font-size: 20px;
+}
+
+.categories-form {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fcde58aa;
+    backdrop-filter: blur(10px);
+    position: relative; 
+    z-index: 1;
+}
+
+.categories-form-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.categories-form-items label {
+    font-size: 13px;
+    color: var(--secondary-color);
+    padding: 0 0 0 5px;
+}
+
+.categories-form-items input {
+    border: none;
+    background: none;
+    outline: none;
+    width: 300px;
+    height: 45px;
+    padding: 10px 15px;
+    background-color: var(--transparent-color);
+}
+
+.categories-form-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories-form-button input {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.categories-form-button input:hover {
+    background-color: var(--fifth-color);
+    color: var(--secondary-color);
+}
+
+.categories-error {
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+    padding: 0 0 0 15px;
+}
