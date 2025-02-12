@@ -23,6 +23,9 @@ const Navbar = () => {
             <Link to="">
                 <p>Contacto</p>
             </Link>
+            <Link to="/admin/1032/login">
+                <p>Log in</p>
+            </Link>
             <div className='navbar-logo'>
                 <img src={samar} alt="logo"/>
             </div>
