@@ -1,6 +1,6 @@
 .adminhome-container {
     width: 100%;
-    min-height: 800px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,4 +39,24 @@
 .adminhome-box p {
     color: var(--primary-color);
     text-align: center;
+}
+
+
+@media (max-width: 1440px) {
+    .adminhome-content {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .adminhome-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

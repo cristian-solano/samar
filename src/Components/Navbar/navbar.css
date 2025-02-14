@@ -93,3 +93,12 @@
     width: 60px;
 }
 
+@media (max-width:768px) {
+    .navbar-links a {
+        display: none;
+    }
+
+    .navbar-dashboard {
+        width: 50%;
+    }
+}

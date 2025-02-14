@@ -14,7 +14,16 @@ const Navbar = () => {
         </div>
         <input type="checkbox" id="navbar-open" style={{display: "none"}}/>
         <div className='navbar-dashboard'>
-            <Link>Productos</Link>
+            <Link to="">Productos</Link>
+            <Link to="">
+                Nosotros
+            </Link>
+            <Link to="">
+                Contacto
+            </Link>
+            <Link to="/admin/1032/login">
+                Log in
+            </Link>
         </div>
         <div className='navbar-links'>
             <Link to="">

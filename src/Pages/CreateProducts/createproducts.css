@@ -199,6 +199,7 @@
     align-items: center;
     font-size: 13px;
     text-transform: capitalize;    
+    text-align: center;
 }
 
 .create-products-table .create-products-table-info:nth-child(odd) {
@@ -244,4 +245,34 @@
 .create-products-link  a:hover {
     background-color: var(--fifth-color);
     color: var(--secondary-color);
+}
+
+
+@media (max-width: 1200px) {
+    .create-products-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .create-products-table-item p:nth-child(3),
+    .create-products-table-item p:nth-child(5)  {
+        display: none;
+    }
+
+    .create-products-table-info p:nth-child(3),
+    .create-products-table-info p:nth-child(5) {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .create-product-item input, .create-product-item select {
+        width: 200px;
+    }
+
+    .create-product-item img {
+        width: 200px;
+        height: 200px;
+    }
 }

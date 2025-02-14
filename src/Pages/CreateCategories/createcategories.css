@@ -150,3 +150,15 @@
     color: red;
     padding: 0 0 0 15px;
 }
+
+@media (max-width: 1000px) {
+    .b-three {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .categories-content span {
+        font-size: 14px;
+    }
+}
